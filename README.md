@@ -1,6 +1,6 @@
 # Classification_heart
 A machine learning project for predicting heart disease risk using a dataset with features like age, sex, chest pain type, and cholesterol levels. The project implements K-Nearest Neighbors (KNN), Decision Tree, and Logistic Regression models
-Heart Disease Prediction
+# Heart Disease Prediction
 ## Overview
 This project focuses on predicting the risk of heart disease using a dataset with 303 patient records. It involves data preprocessing, exploratory data analysis (EDA), and the application of multiple machine learning models, including K-Nearest Neighbors (KNN), Decision Tree, and Logistic Regression. Model performance is evaluated using accuracy, Jaccard score, confusion matrix, and classification reports, with the Logistic Regression model achieving an accuracy of 90% and a Jaccard score of 0.85 on the test set.
 
