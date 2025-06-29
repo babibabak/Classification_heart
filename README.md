@@ -14,7 +14,7 @@ This project focuses on predicting the risk of heart disease using a dataset wit
 - Model Evaluation: Metrics include accuracy, Jaccard score, confusion matrix, and detailed classification reports (precision, recall, F1-score).
 - Visualization: Confusion matrix visualization for Logistic Regression to assess model performance.
 
-- Dataset
+## Dataset
 The dataset (heart.csv) contains 303 records with 14 features, including:
 
 - `age`: Age of the patient
@@ -41,16 +41,16 @@ The dataset is balanced, with 165 positive (heart disease) and 138 negative case
 
 1.Clone the repository:
 ```bash
-    git clone https://github.com/yourusername/heart-disease-prediction.git
+git clone https://github.com/yourusername/heart-disease-prediction.git
 ```
 2.Install dependencies:
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3.Run the Jupyter Notebook:
 ```bash
-    jupyter notebook heart.ipynb
+jupyter notebook heart.ipynb
 ```
 ## Usage
 1.Load and preprocess the dataset (heart.csv).
@@ -73,7 +73,7 @@ The dataset is balanced, with 165 positive (heart disease) and 138 negative case
     - Recall: 0.80 (class 0), 0.97 (class 1)
     - F1-Score: 0.87 (class 0), 0.92 (class 1)
 
-##Future Improvements
+## Future Improvements
 - Optimize hyperparameters for KNN and Logistic Regression using grid search.
 - Explore feature engineering to enhance model performance.
 - Implement additional models like Random Forest or Gradient Boosting.
