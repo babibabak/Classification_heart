@@ -35,7 +35,7 @@ The dataset is balanced, with 165 positive (heart disease) and 138 negative case
 
 ## Requirements
 - Python 3.11
-- Libraries: numpy, pandas, scikit-learn, matplotlib, seaborn, pydotplus
+- Libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `pydotplus`
 
 ## Installation
 
@@ -53,10 +53,10 @@ pip install -r requirements.txt
 jupyter notebook heart.ipynb
 ```
 ## Usage
-1.Load and preprocess the dataset (heart.csv).
-2.Perform EDA to visualize feature distributions and correlations.
-3.Train and evaluate KNN, Decision Tree, and Logistic Regression models.
-4.Analyze model performance using accuracy, Jaccard score, and confusion matrix.
+- Load and preprocess the dataset (heart.csv).
+- Perform EDA to visualize feature distributions and correlations.
+- Train and evaluate KNN, Decision Tree, and Logistic Regression models.
+- Analyze model performance using accuracy, Jaccard score, and confusion matrix.
 
 ## Model Performance
 - K-Nearest Neighbors (KNN): Not fully detailed in the notebook but implemented for comparison.
